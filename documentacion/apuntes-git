@@ -1,0 +1,40 @@
+
+git init
+
+proyeecto se vuelve proyecto git
+
+rama por default master -> un apuntatador HEAD
+
+
+-----
+git add . // sube todos los archivos con cambios
+git add nombredelarchivo // subee un archivo unico
+git add *.txt // sube todos los archivos que tenga la extension
+
+
+git init
+git add .
+git commit -m "mensaje"
+git log
+git log --oneline
+git log --oneline --graph
+git checkout concommit (7 primeros numeros del id)
+git checkout rama
+git reset --hard <commit> --> reseteo duro
+git reset <commit> --> reseteo suave
+git revert <commit>
+git branch rama --> crear rama
+git checkout -b rama -> crear rama
+
+
+master 
+    |
+    - develop
+        |
+        - feature/ramabebtito
+        |
+        - feature/ramamoi
+        |
+        - feature/ramagelipe
+        |
+        - feature/ramamanuel
